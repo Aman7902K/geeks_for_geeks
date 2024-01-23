@@ -1,0 +1,236 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(#232323,#111112); */
+}
+
+.search_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper_text{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search_bar{
+    margin-top: 25px;
+    display: flex;
+    width: 500px;
+    height: 55px;
+}
+.input_bar{
+    width: 80%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.btn{
+    border: none;
+    height: 100%;
+    width: 20%;
+    padding: 0;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    justify-content: end;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.help_btns{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 35px;
+}
+
+
+.help_btns button{
+    border: none;
+    border-radius: 8px;
+    height: 100%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+/* information_section */
+
+.information_section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(43, 43, 43); */
+    width: 60%;
+    height: 800px;
+}
+
+.info_panel1{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(43, 43, 43);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.read,
+.learn,
+.practice
+{
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(41, 41, 41);
+    height: 65%;
+}
+
+.read p,
+.learn p,
+.practice p
+{
+    margin-left: 9px;
+    font-size: 15px;
+}
+
+
+.info_panel1_img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;padding-bottom: 14px;
+}
+
+.head{
+    font-weight: 700;
+}
+
+.description{
+    color: rgb(181, 181, 181);
+}
+
+.info_panel2{
+    /* background-color: rgb(30, 30, 30); */
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_panel2 img{
+    border-top-left-radius:inherit;
+    border-bottom-left-radius: inherit;
+    width: 60%;
+}
+
+.img_info{
+    padding: 40px 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view_btn_container button{
+    height: 35px;
+    background-color: black;
+    /* border: none; */
+    color: white;
+    padding: 8px 19px;
+    border-color: gray;
+    border-radius: 17px;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 60%;
+    height: 1000px;
+
+}
+
+.courses_list{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    column-gap: 30px;
+    row-gap: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.cource_container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    height: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cource_container img{
+    height: 100%;
+    /* border: 2px solid purple; */
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+}
+
+.video_details{
+    margin-top: 24px;
+    margin-left: 20px;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+.cource_container span{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0px 0px 20px;
+}
+
+.offer{
+    background: #E4FCEA;
+    font-size: 11px;
+    text-wrap: nowrap;
+    margin: 8px 20px;
+    padding: 4px;
+    height: 20px;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.offer img{
+    border: none;
+    width: 10%;
+}
+
+.dwmt{
+    height: 1000px;
+    background-color: rgb(46, 46, 46);
+    border: 2px solid red;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
